@@ -1,0 +1,363 @@
+-->Start classifying test set...
+
+	1 out of 50. Processing trec06p/data/077/123 ...
+		Actual label: spam
+		Ham Percentage = 20.8822% 
+		Spam Percentage = 79.1178% 
+		Predicted label: spam
+		Type: True Positive
+
+	2 out of 50. Processing trec06p/data/000/239 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	3 out of 50. Processing trec06p/data/023/026 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	4 out of 50. Processing trec06p/data/059/168 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	5 out of 50. Processing trec06p/data/102/201 ...
+		Actual label: spam
+		Ham Percentage = 1.89969% 
+		Spam Percentage = 98.1003% 
+		Predicted label: spam
+		Type: True Positive
+
+	6 out of 50. Processing trec06p/data/037/028 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	7 out of 50. Processing trec06p/data/080/005 ...
+		Actual label: spam
+		Ham Percentage = 21.6815% 
+		Spam Percentage = 78.3185% 
+		Predicted label: spam
+		Type: True Positive
+
+	8 out of 50. Processing trec06p/data/106/179 ...
+		Actual label: ham
+		Ham Percentage = 99.9542% 
+		Spam Percentage = 0.0458155% 
+		Predicted label: ham
+		Type: True Negative
+
+	9 out of 50. Processing trec06p/data/052/111 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	10 out of 50. Processing trec06p/data/089/056 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	11 out of 50. Processing trec06p/data/065/241 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	12 out of 50. Processing trec06p/data/008/212 ...
+		Actual label: spam
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: False Negative
+
+	13 out of 50. Processing trec06p/data/093/276 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	14 out of 50. Processing trec06p/data/040/177 ...
+		Actual label: spam
+		Ham Percentage = 0.392777% 
+		Spam Percentage = 99.6072% 
+		Predicted label: spam
+		Type: True Positive
+
+	15 out of 50. Processing trec06p/data/039/266 ...
+		Actual label: spam
+		Ham Percentage = 34.8% 
+		Spam Percentage = 65.2% 
+		Predicted label: spam
+		Type: True Positive
+
+	16 out of 50. Processing trec06p/data/086/017 ...
+		Actual label: spam
+		Ham Percentage = 0.0330481% 
+		Spam Percentage = 99.967% 
+		Predicted label: spam
+		Type: True Positive
+
+	17 out of 50. Processing trec06p/data/025/261 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	18 out of 50. Processing trec06p/data/066/065 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	19 out of 50. Processing trec06p/data/070/126 ...
+		Actual label: spam
+		Ham Percentage = 0.0612065% 
+		Spam Percentage = 99.9388% 
+		Predicted label: spam
+		Type: True Positive
+
+	20 out of 50. Processing trec06p/data/023/169 ...
+		Actual label: spam
+		Ham Percentage = 22.5549% 
+		Spam Percentage = 77.4451% 
+		Predicted label: spam
+		Type: True Positive
+
+	21 out of 50. Processing trec06p/data/093/206 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	22 out of 50. Processing trec06p/data/098/204 ...
+		Actual label: spam
+		Ham Percentage = 18.3231% 
+		Spam Percentage = 81.6769% 
+		Predicted label: spam
+		Type: True Positive
+
+	23 out of 50. Processing trec06p/data/028/068 ...
+		Actual label: spam
+		Ham Percentage = 8.02746% 
+		Spam Percentage = 91.9725% 
+		Predicted label: spam
+		Type: True Positive
+
+	24 out of 50. Processing trec06p/data/108/107 ...
+		Actual label: spam
+		Ham Percentage = 0.113552% 
+		Spam Percentage = 99.8864% 
+		Predicted label: spam
+		Type: True Positive
+
+	25 out of 50. Processing trec06p/data/026/124 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	26 out of 50. Processing trec06p/data/086/228 ...
+		Actual label: spam
+		Ham Percentage = 2.97446% 
+		Spam Percentage = 97.0255% 
+		Predicted label: spam
+		Type: True Positive
+
+	27 out of 50. Processing trec06p/data/073/089 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	28 out of 50. Processing trec06p/data/038/149 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	29 out of 50. Processing trec06p/data/069/071 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	30 out of 50. Processing trec06p/data/047/045 ...
+		Actual label: spam
+		Ham Percentage = 6.22031% 
+		Spam Percentage = 93.7797% 
+		Predicted label: spam
+		Type: True Positive
+
+	31 out of 50. Processing trec06p/data/053/249 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	32 out of 50. Processing trec06p/data/041/297 ...
+		Actual label: ham
+		Ham Percentage = 99.9988% 
+		Spam Percentage = 0.0012452% 
+		Predicted label: ham
+		Type: True Negative
+
+	33 out of 50. Processing trec06p/data/105/029 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	34 out of 50. Processing trec06p/data/060/069 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	35 out of 50. Processing trec06p/data/101/053 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	36 out of 50. Processing trec06p/data/064/222 ...
+		Actual label: spam
+		Ham Percentage = 1.79214% 
+		Spam Percentage = 98.2079% 
+		Predicted label: spam
+		Type: True Positive
+
+	37 out of 50. Processing trec06p/data/109/119 ...
+		Actual label: spam
+		Ham Percentage = 8.84885% 
+		Spam Percentage = 91.1512% 
+		Predicted label: spam
+		Type: True Positive
+
+	38 out of 50. Processing trec06p/data/124/152 ...
+		Actual label: spam
+		Ham Percentage = 0.937048% 
+		Spam Percentage = 99.063% 
+		Predicted label: spam
+		Type: True Positive
+
+	39 out of 50. Processing trec06p/data/095/230 ...
+		Actual label: spam
+		Ham Percentage = 29.1362% 
+		Spam Percentage = 70.8638% 
+		Predicted label: spam
+		Type: True Positive
+
+	40 out of 50. Processing trec06p/data/040/195 ...
+		Actual label: ham
+		Ham Percentage = 98.333% 
+		Spam Percentage = 1.66698% 
+		Predicted label: ham
+		Type: True Negative
+
+	41 out of 50. Processing trec06p/data/107/104 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	42 out of 50. Processing trec06p/data/004/204 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	43 out of 50. Processing trec06p/data/063/245 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	44 out of 50. Processing trec06p/data/086/041 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	45 out of 50. Processing trec06p/data/125/053 ...
+		Actual label: spam
+		Ham Percentage = 34.8% 
+		Spam Percentage = 65.2% 
+		Predicted label: spam
+		Type: True Positive
+
+	46 out of 50. Processing trec06p/data/018/090 ...
+		Actual label: spam
+		Ham Percentage = 23.3069% 
+		Spam Percentage = 76.6931% 
+		Predicted label: spam
+		Type: True Positive
+
+	47 out of 50. Processing trec06p/data/069/160 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	48 out of 50. Processing trec06p/data/111/235 ...
+		Actual label: spam
+		Ham Percentage = 0.0162378% 
+		Spam Percentage = 99.9838% 
+		Predicted label: spam
+		Type: True Positive
+
+	49 out of 50. Processing trec06p/data/001/024 ...
+		Actual label: spam
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: False Negative
+
+	50 out of 50. Processing trec06p/data/124/044 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+--------------------Summary--------------------
+
+	True Positives (Spam classified as spam) = 31
+	True Negatives (Ham classified as ham) = 17
+	False Positives (Ham misclassified as spam) = 0
+	False Negatives (Spam misclassified as ham) = 2
+
+	Correctly classified emails (True Positives & True Negatives) = 48 (96%)
+	Misclassified emails (False Positives & False Negatives) = 2(4%)
+	Precision (% of positive predictions were correct) = 1 (100%)
+	Recall (% of positive cases catched) = 0.939394 (93.9394%)

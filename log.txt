@@ -1,0 +1,1892 @@
+
+
+-----------------Program has started-----------------
+
+-->Reading data files...
+
+	37822 number of files read.
+
+-->Randomly separating 70-30 training and test set...
+
+	Success!
+
+	26475 - number of training data.
+	11347 - number of test data.
+	-----
+	37822 - total.
+
+-->Creating vocabulary...
+
+	1 out of 500. Reading trec06p/data/034/001 ...
+	Current vocabulary size: 318 
+
+	2 out of 500. Reading trec06p/data/016/190 ...
+	Current vocabulary size: 377 
+
+	3 out of 500. Reading trec06p/data/113/288 ...
+	Current vocabulary size: 532 
+
+	4 out of 500. Reading trec06p/data/104/071 ...
+	Current vocabulary size: 574 
+
+	5 out of 500. Reading trec06p/data/102/191 ...
+	Current vocabulary size: 634 
+
+	6 out of 500. Reading trec06p/data/066/110 ...
+	Current vocabulary size: 655 
+
+	7 out of 500. Reading trec06p/data/043/126 ...
+	Current vocabulary size: 694 
+
+	8 out of 500. Reading trec06p/data/091/256 ...
+	Current vocabulary size: 718 
+
+	9 out of 500. Reading trec06p/data/119/104 ...
+	Current vocabulary size: 720 
+
+	10 out of 500. Reading trec06p/data/092/280 ...
+	Current vocabulary size: 768 
+
+	11 out of 500. Reading trec06p/data/010/278 ...
+	Current vocabulary size: 888 
+
+	12 out of 500. Reading trec06p/data/020/252 ...
+	Current vocabulary size: 894 
+
+	13 out of 500. Reading trec06p/data/109/084 ...
+	Current vocabulary size: 897 
+
+	14 out of 500. Reading trec06p/data/026/084 ...
+	Current vocabulary size: 960 
+
+	15 out of 500. Reading trec06p/data/029/272 ...
+	Current vocabulary size: 1071 
+
+	16 out of 500. Reading trec06p/data/012/115 ...
+	Current vocabulary size: 1075 
+
+	17 out of 500. Reading trec06p/data/045/251 ...
+	Current vocabulary size: 1123 
+
+	18 out of 500. Reading trec06p/data/101/171 ...
+	Current vocabulary size: 1167 
+
+	19 out of 500. Reading trec06p/data/045/225 ...
+	Current vocabulary size: 1231 
+
+	20 out of 500. Reading trec06p/data/085/068 ...
+	Current vocabulary size: 1265 
+
+	21 out of 500. Reading trec06p/data/123/242 ...
+	Current vocabulary size: 1266 
+
+	22 out of 500. Reading trec06p/data/019/113 ...
+	Current vocabulary size: 1267 
+
+	23 out of 500. Reading trec06p/data/000/172 ...
+	Current vocabulary size: 1400 
+
+	24 out of 500. Reading trec06p/data/101/078 ...
+	Current vocabulary size: 1445 
+
+	25 out of 500. Reading trec06p/data/035/028 ...
+	Current vocabulary size: 1512 
+
+	26 out of 500. Reading trec06p/data/066/294 ...
+	Current vocabulary size: 1538 
+
+	27 out of 500. Reading trec06p/data/114/183 ...
+	Current vocabulary size: 1544 
+
+	28 out of 500. Reading trec06p/data/016/153 ...
+	Current vocabulary size: 1569 
+
+	29 out of 500. Reading trec06p/data/125/045 ...
+	Current vocabulary size: 1627 
+
+	30 out of 500. Reading trec06p/data/010/021 ...
+	Current vocabulary size: 1627 
+
+	31 out of 500. Reading trec06p/data/081/299 ...
+	Current vocabulary size: 1766 
+
+	32 out of 500. Reading trec06p/data/118/000 ...
+	Current vocabulary size: 1774 
+
+	33 out of 500. Reading trec06p/data/117/274 ...
+	Current vocabulary size: 1792 
+
+	34 out of 500. Reading trec06p/data/008/225 ...
+	Current vocabulary size: 1835 
+
+	35 out of 500. Reading trec06p/data/055/172 ...
+	Current vocabulary size: 1914 
+
+	36 out of 500. Reading trec06p/data/117/239 ...
+	Current vocabulary size: 1962 
+
+	37 out of 500. Reading trec06p/data/028/122 ...
+	Current vocabulary size: 1975 
+
+	38 out of 500. Reading trec06p/data/100/082 ...
+	Current vocabulary size: 2064 
+
+	39 out of 500. Reading trec06p/data/071/158 ...
+	Current vocabulary size: 2067 
+
+	40 out of 500. Reading trec06p/data/027/160 ...
+	Current vocabulary size: 2088 
+
+	41 out of 500. Reading trec06p/data/056/012 ...
+	Current vocabulary size: 2088 
+
+	42 out of 500. Reading trec06p/data/017/165 ...
+	Current vocabulary size: 2101 
+
+	43 out of 500. Reading trec06p/data/098/014 ...
+	Current vocabulary size: 2106 
+
+	44 out of 500. Reading trec06p/data/015/078 ...
+	Current vocabulary size: 2154 
+
+	45 out of 500. Reading trec06p/data/119/163 ...
+	Current vocabulary size: 2193 
+
+	46 out of 500. Reading trec06p/data/043/229 ...
+	Current vocabulary size: 2194 
+
+	47 out of 500. Reading trec06p/data/115/130 ...
+	Current vocabulary size: 2205 
+
+	48 out of 500. Reading trec06p/data/123/171 ...
+	Current vocabulary size: 2206 
+
+	49 out of 500. Reading trec06p/data/091/155 ...
+	Current vocabulary size: 2225 
+
+	50 out of 500. Reading trec06p/data/051/198 ...
+	Current vocabulary size: 2267 
+
+	51 out of 500. Reading trec06p/data/099/177 ...
+	Current vocabulary size: 2269 
+
+	52 out of 500. Reading trec06p/data/032/105 ...
+	Current vocabulary size: 2275 
+
+	53 out of 500. Reading trec06p/data/080/216 ...
+	Current vocabulary size: 2309 
+
+	54 out of 500. Reading trec06p/data/068/252 ...
+	Current vocabulary size: 2309 
+
+	55 out of 500. Reading trec06p/data/075/257 ...
+	Current vocabulary size: 2309 
+
+	56 out of 500. Reading trec06p/data/054/008 ...
+	Current vocabulary size: 2332 
+
+	57 out of 500. Reading trec06p/data/039/206 ...
+	Current vocabulary size: 2340 
+
+	58 out of 500. Reading trec06p/data/018/273 ...
+	Current vocabulary size: 2351 
+
+	59 out of 500. Reading trec06p/data/003/239 ...
+	Current vocabulary size: 2475 
+
+	60 out of 500. Reading trec06p/data/038/255 ...
+	Current vocabulary size: 2504 
+
+	61 out of 500. Reading trec06p/data/084/109 ...
+	Current vocabulary size: 2518 
+
+	62 out of 500. Reading trec06p/data/102/211 ...
+	Current vocabulary size: 2520 
+
+	63 out of 500. Reading trec06p/data/059/051 ...
+	Current vocabulary size: 2530 
+
+	64 out of 500. Reading trec06p/data/066/255 ...
+	Current vocabulary size: 2588 
+
+	65 out of 500. Reading trec06p/data/108/172 ...
+	Current vocabulary size: 2658 
+
+	66 out of 500. Reading trec06p/data/094/212 ...
+	Current vocabulary size: 2719 
+
+	67 out of 500. Reading trec06p/data/070/050 ...
+	Current vocabulary size: 2719 
+
+	68 out of 500. Reading trec06p/data/107/095 ...
+	Current vocabulary size: 2725 
+
+	69 out of 500. Reading trec06p/data/119/242 ...
+	Current vocabulary size: 2725 
+
+	70 out of 500. Reading trec06p/data/117/201 ...
+	Current vocabulary size: 2743 
+
+	71 out of 500. Reading trec06p/data/038/011 ...
+	Current vocabulary size: 2758 
+
+	72 out of 500. Reading trec06p/data/109/009 ...
+	Current vocabulary size: 2781 
+
+	73 out of 500. Reading trec06p/data/005/167 ...
+	Current vocabulary size: 2792 
+
+	74 out of 500. Reading trec06p/data/016/059 ...
+	Current vocabulary size: 2804 
+
+	75 out of 500. Reading trec06p/data/053/180 ...
+	Current vocabulary size: 2823 
+
+	76 out of 500. Reading trec06p/data/062/203 ...
+	Current vocabulary size: 2824 
+
+	77 out of 500. Reading trec06p/data/108/192 ...
+	Current vocabulary size: 2839 
+
+	78 out of 500. Reading trec06p/data/107/223 ...
+	Current vocabulary size: 2903 
+
+	79 out of 500. Reading trec06p/data/054/038 ...
+	Current vocabulary size: 2903 
+
+	80 out of 500. Reading trec06p/data/113/058 ...
+	Current vocabulary size: 3030 
+
+	81 out of 500. Reading trec06p/data/012/127 ...
+	Current vocabulary size: 3662 
+
+	82 out of 500. Reading trec06p/data/068/090 ...
+	Current vocabulary size: 3675 
+
+	83 out of 500. Reading trec06p/data/074/086 ...
+	Current vocabulary size: 3694 
+
+	84 out of 500. Reading trec06p/data/099/197 ...
+	Current vocabulary size: 3701 
+
+	85 out of 500. Reading trec06p/data/011/168 ...
+	Current vocabulary size: 3772 
+
+	86 out of 500. Reading trec06p/data/022/277 ...
+	Current vocabulary size: 3810 
+
+	87 out of 500. Reading trec06p/data/001/232 ...
+	Current vocabulary size: 3815 
+
+	88 out of 500. Reading trec06p/data/101/118 ...
+	Current vocabulary size: 3892 
+
+	89 out of 500. Reading trec06p/data/019/099 ...
+	Current vocabulary size: 4052 
+
+	90 out of 500. Reading trec06p/data/062/088 ...
+	Current vocabulary size: 4062 
+
+	91 out of 500. Reading trec06p/data/070/010 ...
+	Current vocabulary size: 4062 
+
+	92 out of 500. Reading trec06p/data/093/212 ...
+	Current vocabulary size: 4078 
+
+	93 out of 500. Reading trec06p/data/095/189 ...
+	Current vocabulary size: 4079 
+
+	94 out of 500. Reading trec06p/data/036/261 ...
+	Current vocabulary size: 4120 
+
+	95 out of 500. Reading trec06p/data/094/265 ...
+	Current vocabulary size: 4160 
+
+	96 out of 500. Reading trec06p/data/010/292 ...
+	Current vocabulary size: 4160 
+
+	97 out of 500. Reading trec06p/data/116/135 ...
+	Current vocabulary size: 4219 
+
+	98 out of 500. Reading trec06p/data/089/078 ...
+	Current vocabulary size: 4241 
+
+	99 out of 500. Reading trec06p/data/078/217 ...
+	Current vocabulary size: 4241 
+
+	100 out of 500. Reading trec06p/data/096/174 ...
+	Current vocabulary size: 4274 
+
+	101 out of 500. Reading trec06p/data/104/259 ...
+	Current vocabulary size: 4274 
+
+	102 out of 500. Reading trec06p/data/013/292 ...
+	Current vocabulary size: 4300 
+
+	103 out of 500. Reading trec06p/data/050/269 ...
+	Current vocabulary size: 4306 
+
+	104 out of 500. Reading trec06p/data/080/299 ...
+	Current vocabulary size: 4306 
+
+	105 out of 500. Reading trec06p/data/088/224 ...
+	Current vocabulary size: 4313 
+
+	106 out of 500. Reading trec06p/data/041/089 ...
+	Current vocabulary size: 4336 
+
+	107 out of 500. Reading trec06p/data/032/214 ...
+	Current vocabulary size: 4336 
+
+	108 out of 500. Reading trec06p/data/037/207 ...
+	Current vocabulary size: 4371 
+
+	109 out of 500. Reading trec06p/data/026/200 ...
+	Current vocabulary size: 4371 
+
+	110 out of 500. Reading trec06p/data/067/067 ...
+	Current vocabulary size: 4381 
+
+	111 out of 500. Reading trec06p/data/102/130 ...
+	Current vocabulary size: 4382 
+
+	112 out of 500. Reading trec06p/data/103/278 ...
+	Current vocabulary size: 4427 
+
+	113 out of 500. Reading trec06p/data/121/243 ...
+	Current vocabulary size: 4459 
+
+	114 out of 500. Reading trec06p/data/013/074 ...
+	Current vocabulary size: 4468 
+
+	115 out of 500. Reading trec06p/data/111/054 ...
+	Current vocabulary size: 4489 
+
+	116 out of 500. Reading trec06p/data/093/021 ...
+	Current vocabulary size: 4489 
+
+	117 out of 500. Reading trec06p/data/023/265 ...
+	Current vocabulary size: 4489 
+
+	118 out of 500. Reading trec06p/data/116/155 ...
+	Current vocabulary size: 4489 
+
+	119 out of 500. Reading trec06p/data/016/105 ...
+	Current vocabulary size: 4493 
+
+	120 out of 500. Reading trec06p/data/102/252 ...
+	Current vocabulary size: 4494 
+
+	121 out of 500. Reading trec06p/data/019/025 ...
+	Current vocabulary size: 4495 
+
+	122 out of 500. Reading trec06p/data/081/153 ...
+	Current vocabulary size: 4501 
+
+	123 out of 500. Reading trec06p/data/053/004 ...
+	Current vocabulary size: 4516 
+
+	124 out of 500. Reading trec06p/data/084/223 ...
+	Current vocabulary size: 4523 
+
+	125 out of 500. Reading trec06p/data/095/186 ...
+	Current vocabulary size: 4590 
+
+	126 out of 500. Reading trec06p/data/054/133 ...
+	Current vocabulary size: 4597 
+
+	127 out of 500. Reading trec06p/data/042/291 ...
+	Current vocabulary size: 4618 
+
+	128 out of 500. Reading trec06p/data/110/180 ...
+	Current vocabulary size: 4618 
+
+	129 out of 500. Reading trec06p/data/037/022 ...
+	Current vocabulary size: 4636 
+
+	130 out of 500. Reading trec06p/data/090/009 ...
+	Current vocabulary size: 4636 
+
+	131 out of 500. Reading trec06p/data/076/174 ...
+	Current vocabulary size: 4679 
+
+	132 out of 500. Reading trec06p/data/003/227 ...
+	Current vocabulary size: 4706 
+
+	133 out of 500. Reading trec06p/data/024/007 ...
+	Current vocabulary size: 4706 
+
+	134 out of 500. Reading trec06p/data/043/096 ...
+	Current vocabulary size: 4712 
+
+	135 out of 500. Reading trec06p/data/011/061 ...
+	Current vocabulary size: 4719 
+
+	136 out of 500. Reading trec06p/data/078/204 ...
+	Current vocabulary size: 4719 
+
+	137 out of 500. Reading trec06p/data/073/185 ...
+	Current vocabulary size: 4719 
+
+	138 out of 500. Reading trec06p/data/026/057 ...
+	Current vocabulary size: 4740 
+
+	139 out of 500. Reading trec06p/data/047/060 ...
+	Current vocabulary size: 4747 
+
+	140 out of 500. Reading trec06p/data/026/026 ...
+	Current vocabulary size: 4779 
+
+	141 out of 500. Reading trec06p/data/000/138 ...
+	Current vocabulary size: 4814 
+
+	142 out of 500. Reading trec06p/data/124/053 ...
+	Current vocabulary size: 4826 
+
+	143 out of 500. Reading trec06p/data/060/120 ...
+	Current vocabulary size: 4831 
+
+	144 out of 500. Reading trec06p/data/002/294 ...
+	Current vocabulary size: 4832 
+
+	145 out of 500. Reading trec06p/data/002/010 ...
+	Current vocabulary size: 4845 
+
+	146 out of 500. Reading trec06p/data/056/073 ...
+	Current vocabulary size: 4850 
+
+	147 out of 500. Reading trec06p/data/121/150 ...
+	Current vocabulary size: 4865 
+
+	148 out of 500. Reading trec06p/data/019/010 ...
+	Current vocabulary size: 4865 
+
+	149 out of 500. Reading trec06p/data/076/113 ...
+	Current vocabulary size: 4865 
+
+	150 out of 500. Reading trec06p/data/113/065 ...
+	Current vocabulary size: 4915 
+
+	151 out of 500. Reading trec06p/data/101/021 ...
+	Current vocabulary size: 4917 
+
+	152 out of 500. Reading trec06p/data/101/184 ...
+	Current vocabulary size: 5084 
+
+	153 out of 500. Reading trec06p/data/067/269 ...
+	Current vocabulary size: 5084 
+
+	154 out of 500. Reading trec06p/data/086/074 ...
+	Current vocabulary size: 5100 
+
+	155 out of 500. Reading trec06p/data/093/203 ...
+	Current vocabulary size: 5121 
+
+	156 out of 500. Reading trec06p/data/089/016 ...
+	Current vocabulary size: 5155 
+
+	157 out of 500. Reading trec06p/data/031/265 ...
+	Current vocabulary size: 5163 
+
+	158 out of 500. Reading trec06p/data/084/076 ...
+	Current vocabulary size: 5171 
+
+	159 out of 500. Reading trec06p/data/114/268 ...
+	Current vocabulary size: 5218 
+
+	160 out of 500. Reading trec06p/data/010/076 ...
+	Current vocabulary size: 5226 
+
+	161 out of 500. Reading trec06p/data/035/209 ...
+	Current vocabulary size: 5230 
+
+	162 out of 500. Reading trec06p/data/114/056 ...
+	Current vocabulary size: 5247 
+
+	163 out of 500. Reading trec06p/data/030/238 ...
+	Current vocabulary size: 5263 
+
+	164 out of 500. Reading trec06p/data/071/029 ...
+	Current vocabulary size: 5264 
+
+	165 out of 500. Reading trec06p/data/071/123 ...
+	Current vocabulary size: 5318 
+
+	166 out of 500. Reading trec06p/data/038/230 ...
+	Current vocabulary size: 5333 
+
+	167 out of 500. Reading trec06p/data/077/075 ...
+	Current vocabulary size: 5338 
+
+	168 out of 500. Reading trec06p/data/106/262 ...
+	Current vocabulary size: 5339 
+
+	169 out of 500. Reading trec06p/data/117/273 ...
+	Current vocabulary size: 5357 
+
+	170 out of 500. Reading trec06p/data/115/164 ...
+	Current vocabulary size: 5363 
+
+	171 out of 500. Reading trec06p/data/082/228 ...
+	Current vocabulary size: 5431 
+
+	172 out of 500. Reading trec06p/data/024/017 ...
+	Current vocabulary size: 5431 
+
+	173 out of 500. Reading trec06p/data/006/249 ...
+	Current vocabulary size: 5435 
+
+	174 out of 500. Reading trec06p/data/029/275 ...
+	Current vocabulary size: 5436 
+
+	175 out of 500. Reading trec06p/data/044/006 ...
+	Current vocabulary size: 5437 
+
+	176 out of 500. Reading trec06p/data/042/145 ...
+	Current vocabulary size: 5441 
+
+	177 out of 500. Reading trec06p/data/098/293 ...
+	Current vocabulary size: 5441 
+
+	178 out of 500. Reading trec06p/data/057/017 ...
+	Current vocabulary size: 5487 
+
+	179 out of 500. Reading trec06p/data/060/065 ...
+	Current vocabulary size: 5496 
+
+	180 out of 500. Reading trec06p/data/032/104 ...
+	Current vocabulary size: 5496 
+
+	181 out of 500. Reading trec06p/data/018/291 ...
+	Current vocabulary size: 5530 
+
+	182 out of 500. Reading trec06p/data/089/296 ...
+	Current vocabulary size: 5533 
+
+	183 out of 500. Reading trec06p/data/011/050 ...
+	Current vocabulary size: 5553 
+
+	184 out of 500. Reading trec06p/data/088/111 ...
+	Current vocabulary size: 5557 
+
+	185 out of 500. Reading trec06p/data/071/257 ...
+	Current vocabulary size: 5564 
+
+	186 out of 500. Reading trec06p/data/023/129 ...
+	Current vocabulary size: 5584 
+
+	187 out of 500. Reading trec06p/data/115/279 ...
+	Current vocabulary size: 5588 
+
+	188 out of 500. Reading trec06p/data/105/132 ...
+	Current vocabulary size: 5593 
+
+	189 out of 500. Reading trec06p/data/013/291 ...
+	Current vocabulary size: 5593 
+
+	190 out of 500. Reading trec06p/data/010/287 ...
+	Current vocabulary size: 5597 
+
+	191 out of 500. Reading trec06p/data/001/214 ...
+	Current vocabulary size: 5597 
+
+	192 out of 500. Reading trec06p/data/019/074 ...
+	Current vocabulary size: 5597 
+
+	193 out of 500. Reading trec06p/data/074/045 ...
+	Current vocabulary size: 5601 
+
+	194 out of 500. Reading trec06p/data/103/260 ...
+	Current vocabulary size: 5601 
+
+	195 out of 500. Reading trec06p/data/047/077 ...
+	Current vocabulary size: 5622 
+
+	196 out of 500. Reading trec06p/data/073/011 ...
+	Current vocabulary size: 5622 
+
+	197 out of 500. Reading trec06p/data/004/047 ...
+	Current vocabulary size: 5622 
+
+	198 out of 500. Reading trec06p/data/033/003 ...
+	Current vocabulary size: 5627 
+
+	199 out of 500. Reading trec06p/data/022/079 ...
+	Current vocabulary size: 5627 
+
+	200 out of 500. Reading trec06p/data/099/191 ...
+	Current vocabulary size: 5632 
+
+	201 out of 500. Reading trec06p/data/025/081 ...
+	Current vocabulary size: 5632 
+
+	202 out of 500. Reading trec06p/data/103/249 ...
+	Current vocabulary size: 5640 
+
+	203 out of 500. Reading trec06p/data/111/259 ...
+	Current vocabulary size: 5645 
+
+	204 out of 500. Reading trec06p/data/081/072 ...
+	Current vocabulary size: 5645 
+
+	205 out of 500. Reading trec06p/data/077/035 ...
+	Current vocabulary size: 5653 
+
+	206 out of 500. Reading trec06p/data/086/166 ...
+	Current vocabulary size: 5664 
+
+	207 out of 500. Reading trec06p/data/031/230 ...
+	Current vocabulary size: 5691 
+
+	208 out of 500. Reading trec06p/data/055/131 ...
+	Current vocabulary size: 5691 
+
+	209 out of 500. Reading trec06p/data/110/154 ...
+	Current vocabulary size: 5709 
+
+	210 out of 500. Reading trec06p/data/087/177 ...
+	Current vocabulary size: 5725 
+
+	211 out of 500. Reading trec06p/data/050/038 ...
+	Current vocabulary size: 5734 
+
+	212 out of 500. Reading trec06p/data/040/130 ...
+	Current vocabulary size: 5752 
+
+	213 out of 500. Reading trec06p/data/058/293 ...
+	Current vocabulary size: 5757 
+
+	214 out of 500. Reading trec06p/data/025/105 ...
+	Current vocabulary size: 5757 
+
+	215 out of 500. Reading trec06p/data/029/063 ...
+	Current vocabulary size: 5762 
+
+	216 out of 500. Reading trec06p/data/048/074 ...
+	Current vocabulary size: 5767 
+
+	217 out of 500. Reading trec06p/data/070/190 ...
+	Current vocabulary size: 5767 
+
+	218 out of 500. Reading trec06p/data/014/199 ...
+	Current vocabulary size: 5767 
+
+	219 out of 500. Reading trec06p/data/114/294 ...
+	Current vocabulary size: 5772 
+
+	220 out of 500. Reading trec06p/data/072/092 ...
+	Current vocabulary size: 5772 
+
+	221 out of 500. Reading trec06p/data/122/253 ...
+	Current vocabulary size: 5772 
+
+	222 out of 500. Reading trec06p/data/100/223 ...
+	Current vocabulary size: 5774 
+
+	223 out of 500. Reading trec06p/data/053/100 ...
+	Current vocabulary size: 5784 
+
+	224 out of 500. Reading trec06p/data/037/249 ...
+	Current vocabulary size: 5786 
+
+	225 out of 500. Reading trec06p/data/033/286 ...
+	Current vocabulary size: 5790 
+
+	226 out of 500. Reading trec06p/data/014/219 ...
+	Current vocabulary size: 5797 
+
+	227 out of 500. Reading trec06p/data/001/080 ...
+	Current vocabulary size: 5817 
+
+	228 out of 500. Reading trec06p/data/107/184 ...
+	Current vocabulary size: 5824 
+
+	229 out of 500. Reading trec06p/data/097/290 ...
+	Current vocabulary size: 5851 
+
+	230 out of 500. Reading trec06p/data/045/189 ...
+	Current vocabulary size: 5913 
+
+	231 out of 500. Reading trec06p/data/067/092 ...
+	Current vocabulary size: 5923 
+
+	232 out of 500. Reading trec06p/data/050/178 ...
+	Current vocabulary size: 5923 
+
+	233 out of 500. Reading trec06p/data/097/106 ...
+	Current vocabulary size: 5923 
+
+	234 out of 500. Reading trec06p/data/088/099 ...
+	Current vocabulary size: 5923 
+
+	235 out of 500. Reading trec06p/data/088/011 ...
+	Current vocabulary size: 5923 
+
+	236 out of 500. Reading trec06p/data/007/001 ...
+	Current vocabulary size: 5923 
+
+	237 out of 500. Reading trec06p/data/105/204 ...
+	Current vocabulary size: 5938 
+
+	238 out of 500. Reading trec06p/data/041/016 ...
+	Current vocabulary size: 5942 
+
+	239 out of 500. Reading trec06p/data/084/145 ...
+	Current vocabulary size: 5943 
+
+	240 out of 500. Reading trec06p/data/000/059 ...
+	Current vocabulary size: 5943 
+
+	241 out of 500. Reading trec06p/data/074/067 ...
+	Current vocabulary size: 5946 
+
+	242 out of 500. Reading trec06p/data/114/066 ...
+	Current vocabulary size: 5951 
+
+	243 out of 500. Reading trec06p/data/005/184 ...
+	Current vocabulary size: 5956 
+
+	244 out of 500. Reading trec06p/data/051/027 ...
+	Current vocabulary size: 5975 
+
+	245 out of 500. Reading trec06p/data/112/169 ...
+	Current vocabulary size: 5991 
+
+	246 out of 500. Reading trec06p/data/023/117 ...
+	Current vocabulary size: 5991 
+
+	247 out of 500. Reading trec06p/data/040/181 ...
+	Current vocabulary size: 6002 
+
+	248 out of 500. Reading trec06p/data/092/056 ...
+	Current vocabulary size: 6007 
+
+	249 out of 500. Reading trec06p/data/056/275 ...
+	Current vocabulary size: 6020 
+
+	250 out of 500. Reading trec06p/data/110/069 ...
+	Current vocabulary size: 6048 
+
+	251 out of 500. Reading trec06p/data/110/181 ...
+	Current vocabulary size: 6057 
+
+	252 out of 500. Reading trec06p/data/022/232 ...
+	Current vocabulary size: 6078 
+
+	253 out of 500. Reading trec06p/data/002/212 ...
+	Current vocabulary size: 6090 
+
+	254 out of 500. Reading trec06p/data/105/060 ...
+	Current vocabulary size: 6096 
+
+	255 out of 500. Reading trec06p/data/012/039 ...
+	Current vocabulary size: 6105 
+
+	256 out of 500. Reading trec06p/data/092/193 ...
+	Current vocabulary size: 6105 
+
+	257 out of 500. Reading trec06p/data/031/263 ...
+	Current vocabulary size: 6105 
+
+	258 out of 500. Reading trec06p/data/024/036 ...
+	Current vocabulary size: 6105 
+
+	259 out of 500. Reading trec06p/data/048/033 ...
+	Current vocabulary size: 6126 
+
+	260 out of 500. Reading trec06p/data/010/047 ...
+	Current vocabulary size: 6126 
+
+	261 out of 500. Reading trec06p/data/036/210 ...
+	Current vocabulary size: 6139 
+
+	262 out of 500. Reading trec06p/data/040/073 ...
+	Current vocabulary size: 6142 
+
+	263 out of 500. Reading trec06p/data/031/177 ...
+	Current vocabulary size: 6153 
+
+	264 out of 500. Reading trec06p/data/073/135 ...
+	Current vocabulary size: 6164 
+
+	265 out of 500. Reading trec06p/data/046/081 ...
+	Current vocabulary size: 6189 
+
+	266 out of 500. Reading trec06p/data/109/275 ...
+	Current vocabulary size: 6189 
+
+	267 out of 500. Reading trec06p/data/009/203 ...
+	Current vocabulary size: 6194 
+
+	268 out of 500. Reading trec06p/data/011/089 ...
+	Current vocabulary size: 6194 
+
+	269 out of 500. Reading trec06p/data/082/272 ...
+	Current vocabulary size: 6199 
+
+	270 out of 500. Reading trec06p/data/108/076 ...
+	Current vocabulary size: 6203 
+
+	271 out of 500. Reading trec06p/data/009/246 ...
+	Current vocabulary size: 6203 
+
+	272 out of 500. Reading trec06p/data/008/122 ...
+	Current vocabulary size: 6206 
+
+	273 out of 500. Reading trec06p/data/091/221 ...
+	Current vocabulary size: 6212 
+
+	274 out of 500. Reading trec06p/data/006/245 ...
+	Current vocabulary size: 6242 
+
+	275 out of 500. Reading trec06p/data/060/104 ...
+	Current vocabulary size: 6249 
+
+	276 out of 500. Reading trec06p/data/004/244 ...
+	Current vocabulary size: 6257 
+
+	277 out of 500. Reading trec06p/data/103/022 ...
+	Current vocabulary size: 6288 
+
+	278 out of 500. Reading trec06p/data/103/104 ...
+	Current vocabulary size: 6302 
+
+	279 out of 500. Reading trec06p/data/025/200 ...
+	Current vocabulary size: 6313 
+
+	280 out of 500. Reading trec06p/data/002/167 ...
+	Current vocabulary size: 6323 
+
+	281 out of 500. Reading trec06p/data/096/011 ...
+	Current vocabulary size: 6324 
+
+	282 out of 500. Reading trec06p/data/062/143 ...
+	Current vocabulary size: 6327 
+
+	283 out of 500. Reading trec06p/data/058/128 ...
+	Current vocabulary size: 6327 
+
+	284 out of 500. Reading trec06p/data/018/047 ...
+	Current vocabulary size: 6327 
+
+	285 out of 500. Reading trec06p/data/069/254 ...
+	Current vocabulary size: 6346 
+
+	286 out of 500. Reading trec06p/data/057/183 ...
+	Current vocabulary size: 6363 
+
+	287 out of 500. Reading trec06p/data/083/075 ...
+	Current vocabulary size: 6375 
+
+	288 out of 500. Reading trec06p/data/111/079 ...
+	Current vocabulary size: 6384 
+
+	289 out of 500. Reading trec06p/data/078/256 ...
+	Current vocabulary size: 6384 
+
+	290 out of 500. Reading trec06p/data/036/006 ...
+	Current vocabulary size: 6535 
+
+	291 out of 500. Reading trec06p/data/002/237 ...
+	Current vocabulary size: 6550 
+
+	292 out of 500. Reading trec06p/data/095/123 ...
+	Current vocabulary size: 6558 
+
+	293 out of 500. Reading trec06p/data/091/176 ...
+	Current vocabulary size: 6564 
+
+	294 out of 500. Reading trec06p/data/041/283 ...
+	Current vocabulary size: 6576 
+
+	295 out of 500. Reading trec06p/data/023/003 ...
+	Current vocabulary size: 6578 
+
+	296 out of 500. Reading trec06p/data/092/149 ...
+	Current vocabulary size: 6582 
+
+	297 out of 500. Reading trec06p/data/118/246 ...
+	Current vocabulary size: 6610 
+
+	298 out of 500. Reading trec06p/data/029/124 ...
+	Current vocabulary size: 6610 
+
+	299 out of 500. Reading trec06p/data/112/152 ...
+	Current vocabulary size: 6619 
+
+	300 out of 500. Reading trec06p/data/012/060 ...
+	Current vocabulary size: 6630 
+
+	301 out of 500. Reading trec06p/data/027/259 ...
+	Current vocabulary size: 6630 
+
+	302 out of 500. Reading trec06p/data/078/279 ...
+	Current vocabulary size: 6706 
+
+	303 out of 500. Reading trec06p/data/114/112 ...
+	Current vocabulary size: 6707 
+
+	304 out of 500. Reading trec06p/data/001/083 ...
+	Current vocabulary size: 6713 
+
+	305 out of 500. Reading trec06p/data/081/078 ...
+	Current vocabulary size: 6733 
+
+	306 out of 500. Reading trec06p/data/065/020 ...
+	Current vocabulary size: 6733 
+
+	307 out of 500. Reading trec06p/data/059/045 ...
+	Current vocabulary size: 6737 
+
+	308 out of 500. Reading trec06p/data/032/218 ...
+	Current vocabulary size: 6757 
+
+	309 out of 500. Reading trec06p/data/072/099 ...
+	Current vocabulary size: 6761 
+
+	310 out of 500. Reading trec06p/data/098/265 ...
+	Current vocabulary size: 6962 
+
+	311 out of 500. Reading trec06p/data/030/269 ...
+	Current vocabulary size: 6994 
+
+	312 out of 500. Reading trec06p/data/103/238 ...
+	Current vocabulary size: 6994 
+
+	313 out of 500. Reading trec06p/data/004/161 ...
+	Current vocabulary size: 6998 
+
+	314 out of 500. Reading trec06p/data/123/178 ...
+	Current vocabulary size: 7002 
+
+	315 out of 500. Reading trec06p/data/044/162 ...
+	Current vocabulary size: 7017 
+
+	316 out of 500. Reading trec06p/data/090/071 ...
+	Current vocabulary size: 7019 
+
+	317 out of 500. Reading trec06p/data/104/192 ...
+	Current vocabulary size: 7019 
+
+	318 out of 500. Reading trec06p/data/098/072 ...
+	Current vocabulary size: 7024 
+
+	319 out of 500. Reading trec06p/data/059/004 ...
+	Current vocabulary size: 7039 
+
+	320 out of 500. Reading trec06p/data/034/082 ...
+	Current vocabulary size: 7041 
+
+	321 out of 500. Reading trec06p/data/089/252 ...
+	Current vocabulary size: 7074 
+
+	322 out of 500. Reading trec06p/data/041/053 ...
+	Current vocabulary size: 7077 
+
+	323 out of 500. Reading trec06p/data/122/151 ...
+	Current vocabulary size: 7104 
+
+	324 out of 500. Reading trec06p/data/027/258 ...
+	Current vocabulary size: 7121 
+
+	325 out of 500. Reading trec06p/data/051/249 ...
+	Current vocabulary size: 7121 
+
+	326 out of 500. Reading trec06p/data/051/004 ...
+	Current vocabulary size: 7121 
+
+	327 out of 500. Reading trec06p/data/109/077 ...
+	Current vocabulary size: 7121 
+
+	328 out of 500. Reading trec06p/data/004/086 ...
+	Current vocabulary size: 7130 
+
+	329 out of 500. Reading trec06p/data/069/251 ...
+	Current vocabulary size: 7176 
+
+	330 out of 500. Reading trec06p/data/028/098 ...
+	Current vocabulary size: 7180 
+
+	331 out of 500. Reading trec06p/data/122/066 ...
+	Current vocabulary size: 7184 
+
+	332 out of 500. Reading trec06p/data/105/160 ...
+	Current vocabulary size: 7191 
+
+	333 out of 500. Reading trec06p/data/091/068 ...
+	Current vocabulary size: 7193 
+
+	334 out of 500. Reading trec06p/data/024/042 ...
+	Current vocabulary size: 7199 
+
+	335 out of 500. Reading trec06p/data/030/131 ...
+	Current vocabulary size: 7206 
+
+	336 out of 500. Reading trec06p/data/066/164 ...
+	Current vocabulary size: 7215 
+
+	337 out of 500. Reading trec06p/data/116/020 ...
+	Current vocabulary size: 7215 
+
+	338 out of 500. Reading trec06p/data/097/061 ...
+	Current vocabulary size: 7226 
+
+	339 out of 500. Reading trec06p/data/053/176 ...
+	Current vocabulary size: 7229 
+
+	340 out of 500. Reading trec06p/data/010/215 ...
+	Current vocabulary size: 7241 
+
+	341 out of 500. Reading trec06p/data/026/229 ...
+	Current vocabulary size: 7266 
+
+	342 out of 500. Reading trec06p/data/078/205 ...
+	Current vocabulary size: 7266 
+
+	343 out of 500. Reading trec06p/data/100/099 ...
+	Current vocabulary size: 7266 
+
+	344 out of 500. Reading trec06p/data/068/268 ...
+	Current vocabulary size: 7266 
+
+	345 out of 500. Reading trec06p/data/073/248 ...
+	Current vocabulary size: 7287 
+
+	346 out of 500. Reading trec06p/data/087/287 ...
+	Current vocabulary size: 7290 
+
+	347 out of 500. Reading trec06p/data/094/279 ...
+	Current vocabulary size: 7298 
+
+	348 out of 500. Reading trec06p/data/109/059 ...
+	Current vocabulary size: 7310 
+
+	349 out of 500. Reading trec06p/data/061/268 ...
+	Current vocabulary size: 7310 
+
+	350 out of 500. Reading trec06p/data/121/244 ...
+	Current vocabulary size: 7310 
+
+	351 out of 500. Reading trec06p/data/113/160 ...
+	Current vocabulary size: 7310 
+
+	352 out of 500. Reading trec06p/data/077/097 ...
+	Current vocabulary size: 7310 
+
+	353 out of 500. Reading trec06p/data/036/119 ...
+	Current vocabulary size: 7310 
+
+	354 out of 500. Reading trec06p/data/079/175 ...
+	Current vocabulary size: 7314 
+
+	355 out of 500. Reading trec06p/data/036/193 ...
+	Current vocabulary size: 7315 
+
+	356 out of 500. Reading trec06p/data/009/043 ...
+	Current vocabulary size: 7315 
+
+	357 out of 500. Reading trec06p/data/009/201 ...
+	Current vocabulary size: 7315 
+
+	358 out of 500. Reading trec06p/data/106/239 ...
+	Current vocabulary size: 7318 
+
+	359 out of 500. Reading trec06p/data/036/080 ...
+	Current vocabulary size: 7335 
+
+	360 out of 500. Reading trec06p/data/048/249 ...
+	Current vocabulary size: 7360 
+
+	361 out of 500. Reading trec06p/data/072/176 ...
+	Current vocabulary size: 7360 
+
+	362 out of 500. Reading trec06p/data/110/021 ...
+	Current vocabulary size: 7374 
+
+	363 out of 500. Reading trec06p/data/120/185 ...
+	Current vocabulary size: 7397 
+
+	364 out of 500. Reading trec06p/data/094/296 ...
+	Current vocabulary size: 7435 
+
+	365 out of 500. Reading trec06p/data/125/298 ...
+	Current vocabulary size: 7451 
+
+	366 out of 500. Reading trec06p/data/043/180 ...
+	Current vocabulary size: 7452 
+
+	367 out of 500. Reading trec06p/data/019/155 ...
+	Current vocabulary size: 7454 
+
+	368 out of 500. Reading trec06p/data/033/218 ...
+	Current vocabulary size: 7461 
+
+	369 out of 500. Reading trec06p/data/056/135 ...
+	Current vocabulary size: 7476 
+
+	370 out of 500. Reading trec06p/data/002/098 ...
+	Current vocabulary size: 7492 
+
+	371 out of 500. Reading trec06p/data/125/100 ...
+	Current vocabulary size: 7493 
+
+	372 out of 500. Reading trec06p/data/123/111 ...
+	Current vocabulary size: 7493 
+
+	373 out of 500. Reading trec06p/data/071/288 ...
+	Current vocabulary size: 7493 
+
+	374 out of 500. Reading trec06p/data/080/237 ...
+	Current vocabulary size: 7493 
+
+	375 out of 500. Reading trec06p/data/071/153 ...
+	Current vocabulary size: 7496 
+
+	376 out of 500. Reading trec06p/data/049/213 ...
+	Current vocabulary size: 7501 
+
+	377 out of 500. Reading trec06p/data/069/137 ...
+	Current vocabulary size: 7501 
+
+	378 out of 500. Reading trec06p/data/099/079 ...
+	Current vocabulary size: 7506 
+
+	379 out of 500. Reading trec06p/data/000/251 ...
+	Current vocabulary size: 7515 
+
+	380 out of 500. Reading trec06p/data/124/202 ...
+	Current vocabulary size: 7518 
+
+	381 out of 500. Reading trec06p/data/070/082 ...
+	Current vocabulary size: 7519 
+
+	382 out of 500. Reading trec06p/data/050/247 ...
+	Current vocabulary size: 7519 
+
+	383 out of 500. Reading trec06p/data/040/135 ...
+	Current vocabulary size: 7519 
+
+	384 out of 500. Reading trec06p/data/047/150 ...
+	Current vocabulary size: 7519 
+
+	385 out of 500. Reading trec06p/data/039/049 ...
+	Current vocabulary size: 7519 
+
+	386 out of 500. Reading trec06p/data/061/046 ...
+	Current vocabulary size: 7566 
+
+	387 out of 500. Reading trec06p/data/007/295 ...
+	Current vocabulary size: 7566 
+
+	388 out of 500. Reading trec06p/data/062/227 ...
+	Current vocabulary size: 7569 
+
+	389 out of 500. Reading trec06p/data/058/202 ...
+	Current vocabulary size: 7571 
+
+	390 out of 500. Reading trec06p/data/020/199 ...
+	Current vocabulary size: 7579 
+
+	391 out of 500. Reading trec06p/data/101/285 ...
+	Current vocabulary size: 7589 
+
+	392 out of 500. Reading trec06p/data/003/163 ...
+	Current vocabulary size: 7629 
+
+	393 out of 500. Reading trec06p/data/098/077 ...
+	Current vocabulary size: 7643 
+
+	394 out of 500. Reading trec06p/data/053/260 ...
+	Current vocabulary size: 7647 
+
+	395 out of 500. Reading trec06p/data/019/104 ...
+	Current vocabulary size: 7647 
+
+	396 out of 500. Reading trec06p/data/119/143 ...
+	Current vocabulary size: 7651 
+
+	397 out of 500. Reading trec06p/data/003/009 ...
+	Current vocabulary size: 7655 
+
+	398 out of 500. Reading trec06p/data/008/041 ...
+	Current vocabulary size: 7677 
+
+	399 out of 500. Reading trec06p/data/102/280 ...
+	Current vocabulary size: 7678 
+
+	400 out of 500. Reading trec06p/data/048/029 ...
+	Current vocabulary size: 7688 
+
+	401 out of 500. Reading trec06p/data/082/033 ...
+	Current vocabulary size: 7690 
+
+	402 out of 500. Reading trec06p/data/100/281 ...
+	Current vocabulary size: 7707 
+
+	403 out of 500. Reading trec06p/data/032/223 ...
+	Current vocabulary size: 7708 
+
+	404 out of 500. Reading trec06p/data/099/194 ...
+	Current vocabulary size: 7725 
+
+	405 out of 500. Reading trec06p/data/028/230 ...
+	Current vocabulary size: 7725 
+
+	406 out of 500. Reading trec06p/data/065/290 ...
+	Current vocabulary size: 7745 
+
+	407 out of 500. Reading trec06p/data/111/031 ...
+	Current vocabulary size: 7752 
+
+	408 out of 500. Reading trec06p/data/072/259 ...
+	Current vocabulary size: 7756 
+
+	409 out of 500. Reading trec06p/data/065/143 ...
+	Current vocabulary size: 7762 
+
+	410 out of 500. Reading trec06p/data/021/134 ...
+	Current vocabulary size: 7766 
+
+	411 out of 500. Reading trec06p/data/028/250 ...
+	Current vocabulary size: 7768 
+
+	412 out of 500. Reading trec06p/data/039/085 ...
+	Current vocabulary size: 7780 
+
+	413 out of 500. Reading trec06p/data/013/006 ...
+	Current vocabulary size: 7780 
+
+	414 out of 500. Reading trec06p/data/020/182 ...
+	Current vocabulary size: 7782 
+
+	415 out of 500. Reading trec06p/data/028/114 ...
+	Current vocabulary size: 7787 
+
+	416 out of 500. Reading trec06p/data/070/096 ...
+	Current vocabulary size: 7797 
+
+	417 out of 500. Reading trec06p/data/103/096 ...
+	Current vocabulary size: 7799 
+
+	418 out of 500. Reading trec06p/data/072/257 ...
+	Current vocabulary size: 7811 
+
+	419 out of 500. Reading trec06p/data/024/227 ...
+	Current vocabulary size: 7820 
+
+	420 out of 500. Reading trec06p/data/005/121 ...
+	Current vocabulary size: 7859 
+
+	421 out of 500. Reading trec06p/data/018/016 ...
+	Current vocabulary size: 7859 
+
+	422 out of 500. Reading trec06p/data/119/160 ...
+	Current vocabulary size: 7862 
+
+	423 out of 500. Reading trec06p/data/051/139 ...
+	Current vocabulary size: 7862 
+
+	424 out of 500. Reading trec06p/data/043/291 ...
+	Current vocabulary size: 7863 
+
+	425 out of 500. Reading trec06p/data/124/106 ...
+	Current vocabulary size: 7865 
+
+	426 out of 500. Reading trec06p/data/113/099 ...
+	Current vocabulary size: 7869 
+
+	427 out of 500. Reading trec06p/data/066/024 ...
+	Current vocabulary size: 7869 
+
+	428 out of 500. Reading trec06p/data/012/219 ...
+	Current vocabulary size: 7874 
+
+	429 out of 500. Reading trec06p/data/013/222 ...
+	Current vocabulary size: 7883 
+
+	430 out of 500. Reading trec06p/data/014/145 ...
+	Current vocabulary size: 7890 
+
+	431 out of 500. Reading trec06p/data/111/216 ...
+	Current vocabulary size: 7890 
+
+	432 out of 500. Reading trec06p/data/078/228 ...
+	Current vocabulary size: 7892 
+
+	433 out of 500. Reading trec06p/data/089/160 ...
+	Current vocabulary size: 7892 
+
+	434 out of 500. Reading trec06p/data/004/243 ...
+	Current vocabulary size: 7893 
+
+	435 out of 500. Reading trec06p/data/118/206 ...
+	Current vocabulary size: 7897 
+
+	436 out of 500. Reading trec06p/data/081/092 ...
+	Current vocabulary size: 7910 
+
+	437 out of 500. Reading trec06p/data/073/033 ...
+	Current vocabulary size: 7911 
+
+	438 out of 500. Reading trec06p/data/045/018 ...
+	Current vocabulary size: 7912 
+
+	439 out of 500. Reading trec06p/data/097/103 ...
+	Current vocabulary size: 7920 
+
+	440 out of 500. Reading trec06p/data/121/240 ...
+	Current vocabulary size: 7941 
+
+	441 out of 500. Reading trec06p/data/073/059 ...
+	Current vocabulary size: 7941 
+
+	442 out of 500. Reading trec06p/data/114/175 ...
+	Current vocabulary size: 7941 
+
+	443 out of 500. Reading trec06p/data/081/279 ...
+	Current vocabulary size: 8011 
+
+	444 out of 500. Reading trec06p/data/092/203 ...
+	Current vocabulary size: 8030 
+
+	445 out of 500. Reading trec06p/data/068/068 ...
+	Current vocabulary size: 8031 
+
+	446 out of 500. Reading trec06p/data/118/138 ...
+	Current vocabulary size: 8031 
+
+	447 out of 500. Reading trec06p/data/105/078 ...
+	Current vocabulary size: 8062 
+
+	448 out of 500. Reading trec06p/data/021/277 ...
+	Current vocabulary size: 8065 
+
+	449 out of 500. Reading trec06p/data/118/213 ...
+	Current vocabulary size: 8085 
+
+	450 out of 500. Reading trec06p/data/082/066 ...
+	Current vocabulary size: 8094 
+
+	451 out of 500. Reading trec06p/data/044/201 ...
+	Current vocabulary size: 8097 
+
+	452 out of 500. Reading trec06p/data/056/193 ...
+	Current vocabulary size: 8102 
+
+	453 out of 500. Reading trec06p/data/000/129 ...
+	Current vocabulary size: 8105 
+
+	454 out of 500. Reading trec06p/data/101/004 ...
+	Current vocabulary size: 8105 
+
+	455 out of 500. Reading trec06p/data/060/171 ...
+	Current vocabulary size: 8128 
+
+	456 out of 500. Reading trec06p/data/015/291 ...
+	Current vocabulary size: 8144 
+
+	457 out of 500. Reading trec06p/data/107/020 ...
+	Current vocabulary size: 8156 
+
+	458 out of 500. Reading trec06p/data/078/101 ...
+	Current vocabulary size: 8162 
+
+	459 out of 500. Reading trec06p/data/082/102 ...
+	Current vocabulary size: 8166 
+
+	460 out of 500. Reading trec06p/data/086/026 ...
+	Current vocabulary size: 8171 
+
+	461 out of 500. Reading trec06p/data/056/225 ...
+	Current vocabulary size: 8179 
+
+	462 out of 500. Reading trec06p/data/082/085 ...
+	Current vocabulary size: 8206 
+
+	463 out of 500. Reading trec06p/data/082/256 ...
+	Current vocabulary size: 8206 
+
+	464 out of 500. Reading trec06p/data/036/107 ...
+	Current vocabulary size: 8216 
+
+	465 out of 500. Reading trec06p/data/052/124 ...
+	Current vocabulary size: 8218 
+
+	466 out of 500. Reading trec06p/data/116/015 ...
+	Current vocabulary size: 8218 
+
+	467 out of 500. Reading trec06p/data/124/124 ...
+	Current vocabulary size: 8235 
+
+	468 out of 500. Reading trec06p/data/068/218 ...
+	Current vocabulary size: 8251 
+
+	469 out of 500. Reading trec06p/data/006/129 ...
+	Current vocabulary size: 8251 
+
+	470 out of 500. Reading trec06p/data/062/277 ...
+	Current vocabulary size: 8251 
+
+	471 out of 500. Reading trec06p/data/091/249 ...
+	Current vocabulary size: 8267 
+
+	472 out of 500. Reading trec06p/data/108/021 ...
+	Current vocabulary size: 8269 
+
+	473 out of 500. Reading trec06p/data/116/291 ...
+	Current vocabulary size: 8269 
+
+	474 out of 500. Reading trec06p/data/060/111 ...
+	Current vocabulary size: 8269 
+
+	475 out of 500. Reading trec06p/data/008/157 ...
+	Current vocabulary size: 8276 
+
+	476 out of 500. Reading trec06p/data/096/200 ...
+	Current vocabulary size: 8282 
+
+	477 out of 500. Reading trec06p/data/012/075 ...
+	Current vocabulary size: 8283 
+
+	478 out of 500. Reading trec06p/data/082/205 ...
+	Current vocabulary size: 8283 
+
+	479 out of 500. Reading trec06p/data/024/060 ...
+	Current vocabulary size: 8284 
+
+	480 out of 500. Reading trec06p/data/001/185 ...
+	Current vocabulary size: 8298 
+
+	481 out of 500. Reading trec06p/data/123/226 ...
+	Current vocabulary size: 8301 
+
+	482 out of 500. Reading trec06p/data/125/004 ...
+	Current vocabulary size: 8301 
+
+	483 out of 500. Reading trec06p/data/060/052 ...
+	Current vocabulary size: 8304 
+
+	484 out of 500. Reading trec06p/data/069/286 ...
+	Current vocabulary size: 8313 
+
+	485 out of 500. Reading trec06p/data/111/028 ...
+	Current vocabulary size: 8319 
+
+	486 out of 500. Reading trec06p/data/123/115 ...
+	Current vocabulary size: 8357 
+
+	487 out of 500. Reading trec06p/data/053/291 ...
+	Current vocabulary size: 8357 
+
+	488 out of 500. Reading trec06p/data/044/127 ...
+	Current vocabulary size: 8357 
+
+	489 out of 500. Reading trec06p/data/120/285 ...
+	Current vocabulary size: 8362 
+
+	490 out of 500. Reading trec06p/data/089/081 ...
+	Current vocabulary size: 8367 
+
+	491 out of 500. Reading trec06p/data/042/030 ...
+	Current vocabulary size: 8367 
+
+	492 out of 500. Reading trec06p/data/089/236 ...
+	Current vocabulary size: 8367 
+
+	493 out of 500. Reading trec06p/data/036/151 ...
+	Current vocabulary size: 8368 
+
+	494 out of 500. Reading trec06p/data/019/161 ...
+	Current vocabulary size: 8368 
+
+	495 out of 500. Reading trec06p/data/011/135 ...
+	Current vocabulary size: 8368 
+
+	496 out of 500. Reading trec06p/data/103/095 ...
+	Current vocabulary size: 8373 
+
+	497 out of 500. Reading trec06p/data/001/075 ...
+	Current vocabulary size: 8384 
+
+	498 out of 500. Reading trec06p/data/099/034 ...
+	Current vocabulary size: 8391 
+
+	499 out of 500. Reading trec06p/data/093/226 ...
+	Current vocabulary size: 8403 
+
+	500 out of 500. Reading trec06p/data/066/183 ...
+	Current vocabulary size: 8415 
+
+-->Removing candidate words from vocabulary...Please wait...
+
+-->Finished creating vocabulary. Final vocabulary size is 2380
+
+-->Creating Probability Matrices...
+		P(Ham): 0.348
+		P(Spam): 0.652
+
+-----------------Training has finished!-----------------
+
+-->Start classifying test set...
+
+	1 out of 50. Processing trec06p/data/077/123 ...
+		Actual label: spam
+		Ham Percentage = 20.8822% 
+		Spam Percentage = 79.1178% 
+		Predicted label: spam
+		Type: True Positive
+
+	2 out of 50. Processing trec06p/data/000/239 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	3 out of 50. Processing trec06p/data/023/026 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	4 out of 50. Processing trec06p/data/059/168 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	5 out of 50. Processing trec06p/data/102/201 ...
+		Actual label: spam
+		Ham Percentage = 1.89969% 
+		Spam Percentage = 98.1003% 
+		Predicted label: spam
+		Type: True Positive
+
+	6 out of 50. Processing trec06p/data/037/028 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	7 out of 50. Processing trec06p/data/080/005 ...
+		Actual label: spam
+		Ham Percentage = 21.6815% 
+		Spam Percentage = 78.3185% 
+		Predicted label: spam
+		Type: True Positive
+
+	8 out of 50. Processing trec06p/data/106/179 ...
+		Actual label: ham
+		Ham Percentage = 99.9542% 
+		Spam Percentage = 0.0458155% 
+		Predicted label: ham
+		Type: True Negative
+
+	9 out of 50. Processing trec06p/data/052/111 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	10 out of 50. Processing trec06p/data/089/056 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	11 out of 50. Processing trec06p/data/065/241 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	12 out of 50. Processing trec06p/data/008/212 ...
+		Actual label: spam
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: False Negative
+
+	13 out of 50. Processing trec06p/data/093/276 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	14 out of 50. Processing trec06p/data/040/177 ...
+		Actual label: spam
+		Ham Percentage = 0.392777% 
+		Spam Percentage = 99.6072% 
+		Predicted label: spam
+		Type: True Positive
+
+	15 out of 50. Processing trec06p/data/039/266 ...
+		Actual label: spam
+		Ham Percentage = 34.8% 
+		Spam Percentage = 65.2% 
+		Predicted label: spam
+		Type: True Positive
+
+	16 out of 50. Processing trec06p/data/086/017 ...
+		Actual label: spam
+		Ham Percentage = 0.0330481% 
+		Spam Percentage = 99.967% 
+		Predicted label: spam
+		Type: True Positive
+
+	17 out of 50. Processing trec06p/data/025/261 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	18 out of 50. Processing trec06p/data/066/065 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	19 out of 50. Processing trec06p/data/070/126 ...
+		Actual label: spam
+		Ham Percentage = 0.0612065% 
+		Spam Percentage = 99.9388% 
+		Predicted label: spam
+		Type: True Positive
+
+	20 out of 50. Processing trec06p/data/023/169 ...
+		Actual label: spam
+		Ham Percentage = 22.5549% 
+		Spam Percentage = 77.4451% 
+		Predicted label: spam
+		Type: True Positive
+
+	21 out of 50. Processing trec06p/data/093/206 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	22 out of 50. Processing trec06p/data/098/204 ...
+		Actual label: spam
+		Ham Percentage = 18.3231% 
+		Spam Percentage = 81.6769% 
+		Predicted label: spam
+		Type: True Positive
+
+	23 out of 50. Processing trec06p/data/028/068 ...
+		Actual label: spam
+		Ham Percentage = 8.02746% 
+		Spam Percentage = 91.9725% 
+		Predicted label: spam
+		Type: True Positive
+
+	24 out of 50. Processing trec06p/data/108/107 ...
+		Actual label: spam
+		Ham Percentage = 0.113552% 
+		Spam Percentage = 99.8864% 
+		Predicted label: spam
+		Type: True Positive
+
+	25 out of 50. Processing trec06p/data/026/124 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	26 out of 50. Processing trec06p/data/086/228 ...
+		Actual label: spam
+		Ham Percentage = 2.97446% 
+		Spam Percentage = 97.0255% 
+		Predicted label: spam
+		Type: True Positive
+
+	27 out of 50. Processing trec06p/data/073/089 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	28 out of 50. Processing trec06p/data/038/149 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	29 out of 50. Processing trec06p/data/069/071 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	30 out of 50. Processing trec06p/data/047/045 ...
+		Actual label: spam
+		Ham Percentage = 6.22031% 
+		Spam Percentage = 93.7797% 
+		Predicted label: spam
+		Type: True Positive
+
+	31 out of 50. Processing trec06p/data/053/249 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	32 out of 50. Processing trec06p/data/041/297 ...
+		Actual label: ham
+		Ham Percentage = 99.9988% 
+		Spam Percentage = 0.0012452% 
+		Predicted label: ham
+		Type: True Negative
+
+	33 out of 50. Processing trec06p/data/105/029 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	34 out of 50. Processing trec06p/data/060/069 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	35 out of 50. Processing trec06p/data/101/053 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	36 out of 50. Processing trec06p/data/064/222 ...
+		Actual label: spam
+		Ham Percentage = 1.79214% 
+		Spam Percentage = 98.2079% 
+		Predicted label: spam
+		Type: True Positive
+
+	37 out of 50. Processing trec06p/data/109/119 ...
+		Actual label: spam
+		Ham Percentage = 8.84885% 
+		Spam Percentage = 91.1512% 
+		Predicted label: spam
+		Type: True Positive
+
+	38 out of 50. Processing trec06p/data/124/152 ...
+		Actual label: spam
+		Ham Percentage = 0.937048% 
+		Spam Percentage = 99.063% 
+		Predicted label: spam
+		Type: True Positive
+
+	39 out of 50. Processing trec06p/data/095/230 ...
+		Actual label: spam
+		Ham Percentage = 29.1362% 
+		Spam Percentage = 70.8638% 
+		Predicted label: spam
+		Type: True Positive
+
+	40 out of 50. Processing trec06p/data/040/195 ...
+		Actual label: ham
+		Ham Percentage = 98.333% 
+		Spam Percentage = 1.66698% 
+		Predicted label: ham
+		Type: True Negative
+
+	41 out of 50. Processing trec06p/data/107/104 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	42 out of 50. Processing trec06p/data/004/204 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	43 out of 50. Processing trec06p/data/063/245 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+	44 out of 50. Processing trec06p/data/086/041 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	45 out of 50. Processing trec06p/data/125/053 ...
+		Actual label: spam
+		Ham Percentage = 34.8% 
+		Spam Percentage = 65.2% 
+		Predicted label: spam
+		Type: True Positive
+
+	46 out of 50. Processing trec06p/data/018/090 ...
+		Actual label: spam
+		Ham Percentage = 23.3069% 
+		Spam Percentage = 76.6931% 
+		Predicted label: spam
+		Type: True Positive
+
+	47 out of 50. Processing trec06p/data/069/160 ...
+		Actual label: ham
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: True Negative
+
+	48 out of 50. Processing trec06p/data/111/235 ...
+		Actual label: spam
+		Ham Percentage = 0.0162378% 
+		Spam Percentage = 99.9838% 
+		Predicted label: spam
+		Type: True Positive
+
+	49 out of 50. Processing trec06p/data/001/024 ...
+		Actual label: spam
+		Ham Percentage = 100% 
+		Spam Percentage = 0% 
+		Predicted label: ham
+		Type: False Negative
+
+	50 out of 50. Processing trec06p/data/124/044 ...
+		Actual label: spam
+		Ham Percentage = 0% 
+		Spam Percentage = 100% 
+		Predicted label: spam
+		Type: True Positive
+
+--------------------Summary--------------------
+
+	True Positives (Spam classified as spam) = 31
+	True Negatives (Ham classified as ham) = 17
+	False Positives (Ham misclassified as spam) = 0
+	False Negatives (Spam misclassified as ham) = 2
+
+	Correctly classified emails (True Positives & True Negatives) = 48 (96%)
+	Misclassified emails (False Positives & False Negatives) = 2(4%)
+	Precision (% of positive predictions were correct) = 1 (100%)
+	Recall (% of positive cases catched) = 0.939394 (93.9394%)
